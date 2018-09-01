@@ -1,0 +1,18 @@
+[submodule "submodules/macaw"]
+	path = submodules/macaw
+	url = git@github.com:GaloisInc/macaw.git
+[submodule "submodules/bv-sized"]
+	path = submodules/bv-sized
+	url = git@github.com:GaloisInc/bv-sized.git
+[submodule "submodules/softfloat-hs"]
+	path = submodules/softfloat-hs
+	url = git@github.com:GaloisInc/softfloat-hs.git
+[submodule "submodules/bv-sized-float"]
+	path = submodules/bv-sized-float
+	url = git@github.com:GaloisInc/bv-sized-float.git
+[submodule "submodules/grift"]
+	path = submodules/grift
+	url = git@github.com:GaloisInc/grift.git
+[submodule "submodules/parameterized-utils"]
+	path = submodules/parameterized-utils
+	url = git@github.com:GaloisInc/parameterized-utils.git
