@@ -1,0 +1,24 @@
+name:                macaw-riscv
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/benjaminselfridge/macaw-riscv#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Ben Selfridge
+maintainer:          benselfridge@galois.com
+copyright:           March 2018
+category:            RISC-V
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Lib
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/benjaminselfridge/macaw-riscv
