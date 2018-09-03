@@ -4,16 +4,16 @@
 module Data.Macaw.RISCV where
 
 import RISCV.Types
-
 import Data.Macaw.Architecture.Info
+import Data.Macaw.Memory
 
-data RISCV (a :: RV)
+import Data.Macaw.RISCV.ArchTypes
 
 riscv_info :: RVRepr rv -> ArchitectureInfo (RISCV rv)
 riscv_info rvRepr =
   ArchitectureInfo { withArchConstraints = undefined
                    , archAddrWidth = undefined
-                   , archEndianness = undefined
+                   , archEndianness = LittleEndian
                    , disassembleFn = undefined
                    , mkInitialAbsState = undefined
                    , absEvalArchFn = undefined

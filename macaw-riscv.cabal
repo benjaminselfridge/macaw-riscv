@@ -16,7 +16,10 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Data.Macaw.RISCV
-  build-depends:       base >= 4.7 && < 5
+                     , Data.Macaw.RISCV.ArchTypes
+                     , Data.Macaw.RISCV.RISCVReg
+  build-depends:       ansi-wl-pprint >= 0.6 && < 0.7
+                     , base >= 4.7 && < 5
                      , bv-sized
                      , bv-sized-float
                      , grift
